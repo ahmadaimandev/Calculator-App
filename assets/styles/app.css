@@ -6,12 +6,6 @@
   --background-color: #B9CCF4;
   --container-background-color: #61708d;
   --display-color: rgba(255, 255, 255, 0.904);
-
-
-  /*Components*/
-  --button-font-size: 20px;
-
-
 }
 
 * {
@@ -61,19 +55,23 @@ body {
 
 .buttons button {
   padding: 10px;
-  border-radius: 12px;
+  border-radius: 20px;
   border: none;
   font-size: var(--button-font-size);
   cursor: pointer;
-  background-color: #eee;
+  background-color: #333333;
+  color: #fdfdfd;
 }
 
 .buttons button:active {
   transform: scale(0.99);
 }
 .buttons .operator {
-    background: yellow;
+    background: #d4d4d2;
+    color: #1c1c1c;
 }
-.operator {
-  color: #2f9fff;
+
+.buttons .main-operator {
+    background: #ff9500;
+    color: #fff;
 }
