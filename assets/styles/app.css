@@ -1,6 +1,14 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: var(--main-font);
+:root {
+
+  /*Main Theme Font*/
+  --poppins-family: 'Poppins', sans-serif;
+
+  /*Theme Color*/
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--poppins-family);
 }
