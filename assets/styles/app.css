@@ -5,7 +5,8 @@
 
   /*Theme Color*/
   --background-color: #DFDFDF;
-  --container-background: #fff;
+  --container-background: #D4D4D2;
+  --button-color: #FF9500;
 
 }
 
@@ -41,5 +42,23 @@ body {
   text-align: right;
   margin-bottom: 10px;
   font-size: 25px;
-  color: #3393e7;
+  color: #000000; 
+  pointer-events: none;
+  background: red;
+}
+
+.buttons {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.buttons button {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #fff;
+  background-color: var(--button-color);
 }
