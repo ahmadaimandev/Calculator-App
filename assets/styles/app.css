@@ -4,11 +4,42 @@
   --poppins-family: 'Poppins', sans-serif;
 
   /*Theme Color*/
+  --background-color: #DFDFDF;
+  --container-background: #fff;
+
 }
 
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: var(--poppins-family);
+}
+
+
+body {
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ background: var(--background-color); 
+}
+
+.container {
+  position: relative;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 12px;
+  padding: 10px 20px 20px;
+  background: var(--container-background);
+}
+
+.display { 
+  height: 80px;
+  width: 100%;
+  outline: none;
+  border: none;
+  text-align: right;
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: #3393e7;
 }
