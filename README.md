@@ -1,43 +1,22 @@
-<h2 align="center">Calculator App</h2>
+<div align="center">
 
-EduHome is a fully responsive education website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+# 🧮 Calculator App
 
-<a href="https://codewithsadee.github.io/eduhome/"><strong>➥ Live Demo</strong></a>
+<img src="/demo.gif" alt="Project Image" width="700">
 
 </div>
 
-<br />
+## Description
 
-### Demo Screeshots
+The calculator app is a user-friendly tool for quick and accurate mathematical calculations. It offers essential functions with a sleek design, making it a convenient companion for on-the-go calculations.
+## Usage
 
-![EduHome Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+To use this project, follow these steps:
 
-### Prerequisites
+1. Clone the repository: `https://github.com/ahmadaimandev/Calculator-App.git`
+2. Open `index.html` in your web browser.
+3. Enjoy!
 
-Before you begin, ensure you have met the following requirements:
+## License
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
-
-### Run Locally
-
-To run **EduHome** locally, run this command on your git bash:
-
-Linux and macOS:
-
-```bash
-sudo git clone https://github.com/codewithsadee/eduhome.git
-```
-
-Windows:
-
-```bash
-git clone https://github.com/codewithsadee/eduhome.git
-```
-
-### Contact
-
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
-
-### License
-
-This project is **free to use** and does not contains any license.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
